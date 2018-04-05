@@ -19,17 +19,22 @@ Voici ce qu'il faudrait faire :
 
 " # The numbers of letters
 2
+
 " # The numbers of states 
 2
+
 " # The initial transitions
 0.5
 0.5
+
 " # The internal transitions
 0.9 0.1
 0.1 0.9
+
 " # The emissions
 0.5 0.5
 0.7 0.3
+
 
 
  Écrivez la méthode statique load(adr) qui permet de charger un
