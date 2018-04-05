@@ -26,6 +26,8 @@ class HMM:
     def nbl(self, x):
         if not isinstance(x, int):
             raise ValueError("Value Error : please enter an integer")
+        elif x <= 0 :
+            raise ValueError("Value Error : should be superior to 0")
         self.__nbl = x
 
     @property
@@ -37,6 +39,9 @@ class HMM:
     def nbs(self, x):
         if not isinstance(x, int):
             raise ValueError("Value Error : please enter an integer")
+        elif x <= 0 :
+            raise ValueError("Value Error : should be superior to 0")
+
         self.__nbs = x
 
     @property
