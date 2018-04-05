@@ -19,7 +19,7 @@ class HMM:
 
     @property
     def nbl(self):
-
+    
         return self.__nbl
 
     @nbl.setter
